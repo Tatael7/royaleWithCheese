@@ -1,0 +1,19 @@
+{
+  "name": "royalewithcheese",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tatael7/royaleWithCheese.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tatael7/royaleWithCheese/issues"
+  },
+  "homepage": "https://github.com/Tatael7/royaleWithCheese#readme"
+}
