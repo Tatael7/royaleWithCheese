@@ -11,16 +11,16 @@ if(process.env.JAWSDB_URL) {
     password: "P455W0RD",
     database: "burger_db"
   });
-}
+};
 
 
   
-  connection.connect(function(err) {
-      if(err) {
-          console.log("error connecting" + err.stack);
-          return;
-      }
-      console.log("Success, connected as ID: " + connection.threadId);
-  });
+connection.connect(function(err) {
+    if(err) {
+        console.log("error connecting" + err.stack);
+        return;
+    };
+    console.log("Success, connected as ID: " + connection.threadId);
+});
 
-  module.exports = connection;
+module.exports = connection;
